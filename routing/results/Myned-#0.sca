@@ -1,0 +1,4718 @@
+version 3
+run Myned-0-20221115-12:18:38-8644
+attr configname Myned
+attr datetime 20221115-12:18:38
+attr datetimef 20221115-121838
+attr experiment Myned
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network networks.Myned
+attr processid 8644
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network networks.Myned
+config **.destAddresses "\"0 1 2 3 4 5 6 7 8\""
+config **.sendIaTime uniform(30ms,150ms)
+config **.frameCapacity 3
+config **.appType "\"App\""
+config **.app.packetLength "4096 bytes"
+
+par Myned.rte[0].port$o[0].channel typename "\"networks.Myned.C\""
+par Myned.rte[0].port$o[0].channel disabled false
+attr mutable ""
+par Myned.rte[0].port$o[0].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[0].port$o[0].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[0].port$o[0].channel ber 0
+attr mutable ""
+par Myned.rte[0].port$o[0].channel per 0
+attr mutable ""
+par Myned.rte[1].port$o[0].channel typename "\"networks.Myned.C\""
+par Myned.rte[1].port$o[0].channel disabled false
+attr mutable ""
+par Myned.rte[1].port$o[0].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[1].port$o[0].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[1].port$o[0].channel ber 0
+attr mutable ""
+par Myned.rte[1].port$o[0].channel per 0
+attr mutable ""
+par Myned.rte[0].port$o[1].channel typename "\"networks.Myned.C\""
+par Myned.rte[0].port$o[1].channel disabled false
+attr mutable ""
+par Myned.rte[0].port$o[1].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[0].port$o[1].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[0].port$o[1].channel ber 0
+attr mutable ""
+par Myned.rte[0].port$o[1].channel per 0
+attr mutable ""
+par Myned.rte[3].port$o[0].channel typename "\"networks.Myned.C\""
+par Myned.rte[3].port$o[0].channel disabled false
+attr mutable ""
+par Myned.rte[3].port$o[0].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[3].port$o[0].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[3].port$o[0].channel ber 0
+attr mutable ""
+par Myned.rte[3].port$o[0].channel per 0
+attr mutable ""
+par Myned.rte[1].port$o[1].channel typename "\"networks.Myned.C\""
+par Myned.rte[1].port$o[1].channel disabled false
+attr mutable ""
+par Myned.rte[1].port$o[1].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[1].port$o[1].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[1].port$o[1].channel ber 0
+attr mutable ""
+par Myned.rte[1].port$o[1].channel per 0
+attr mutable ""
+par Myned.rte[2].port$o[0].channel typename "\"networks.Myned.C\""
+par Myned.rte[2].port$o[0].channel disabled false
+attr mutable ""
+par Myned.rte[2].port$o[0].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[2].port$o[0].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[2].port$o[0].channel ber 0
+attr mutable ""
+par Myned.rte[2].port$o[0].channel per 0
+attr mutable ""
+par Myned.rte[1].port$o[2].channel typename "\"networks.Myned.C\""
+par Myned.rte[1].port$o[2].channel disabled false
+attr mutable ""
+par Myned.rte[1].port$o[2].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[1].port$o[2].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[1].port$o[2].channel ber 0
+attr mutable ""
+par Myned.rte[1].port$o[2].channel per 0
+attr mutable ""
+par Myned.rte[3].port$o[1].channel typename "\"networks.Myned.C\""
+par Myned.rte[3].port$o[1].channel disabled false
+attr mutable ""
+par Myned.rte[3].port$o[1].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[3].port$o[1].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[3].port$o[1].channel ber 0
+attr mutable ""
+par Myned.rte[3].port$o[1].channel per 0
+attr mutable ""
+par Myned.rte[1].port$o[3].channel typename "\"networks.Myned.C\""
+par Myned.rte[1].port$o[3].channel disabled false
+attr mutable ""
+par Myned.rte[1].port$o[3].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[1].port$o[3].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[1].port$o[3].channel ber 0
+attr mutable ""
+par Myned.rte[1].port$o[3].channel per 0
+attr mutable ""
+par Myned.rte[4].port$o[0].channel typename "\"networks.Myned.C\""
+par Myned.rte[4].port$o[0].channel disabled false
+attr mutable ""
+par Myned.rte[4].port$o[0].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[4].port$o[0].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[4].port$o[0].channel ber 0
+attr mutable ""
+par Myned.rte[4].port$o[0].channel per 0
+attr mutable ""
+par Myned.rte[1].port$o[4].channel typename "\"networks.Myned.C\""
+par Myned.rte[1].port$o[4].channel disabled false
+attr mutable ""
+par Myned.rte[1].port$o[4].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[1].port$o[4].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[1].port$o[4].channel ber 0
+attr mutable ""
+par Myned.rte[1].port$o[4].channel per 0
+attr mutable ""
+par Myned.rte[5].port$o[0].channel typename "\"networks.Myned.C\""
+par Myned.rte[5].port$o[0].channel disabled false
+attr mutable ""
+par Myned.rte[5].port$o[0].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[5].port$o[0].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[5].port$o[0].channel ber 0
+attr mutable ""
+par Myned.rte[5].port$o[0].channel per 0
+attr mutable ""
+par Myned.rte[1].port$o[5].channel typename "\"networks.Myned.C\""
+par Myned.rte[1].port$o[5].channel disabled false
+attr mutable ""
+par Myned.rte[1].port$o[5].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[1].port$o[5].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[1].port$o[5].channel ber 0
+attr mutable ""
+par Myned.rte[1].port$o[5].channel per 0
+attr mutable ""
+par Myned.rte[6].port$o[0].channel typename "\"networks.Myned.C\""
+par Myned.rte[6].port$o[0].channel disabled false
+attr mutable ""
+par Myned.rte[6].port$o[0].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[6].port$o[0].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[6].port$o[0].channel ber 0
+attr mutable ""
+par Myned.rte[6].port$o[0].channel per 0
+attr mutable ""
+par Myned.rte[2].port$o[1].channel typename "\"networks.Myned.C\""
+par Myned.rte[2].port$o[1].channel disabled false
+attr mutable ""
+par Myned.rte[2].port$o[1].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[2].port$o[1].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[2].port$o[1].channel ber 0
+attr mutable ""
+par Myned.rte[2].port$o[1].channel per 0
+attr mutable ""
+par Myned.rte[4].port$o[1].channel typename "\"networks.Myned.C\""
+par Myned.rte[4].port$o[1].channel disabled false
+attr mutable ""
+par Myned.rte[4].port$o[1].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[4].port$o[1].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[4].port$o[1].channel ber 0
+attr mutable ""
+par Myned.rte[4].port$o[1].channel per 0
+attr mutable ""
+par Myned.rte[2].port$o[2].channel typename "\"networks.Myned.C\""
+par Myned.rte[2].port$o[2].channel disabled false
+attr mutable ""
+par Myned.rte[2].port$o[2].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[2].port$o[2].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[2].port$o[2].channel ber 0
+attr mutable ""
+par Myned.rte[2].port$o[2].channel per 0
+attr mutable ""
+par Myned.rte[5].port$o[1].channel typename "\"networks.Myned.C\""
+par Myned.rte[5].port$o[1].channel disabled false
+attr mutable ""
+par Myned.rte[5].port$o[1].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[5].port$o[1].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[5].port$o[1].channel ber 0
+attr mutable ""
+par Myned.rte[5].port$o[1].channel per 0
+attr mutable ""
+par Myned.rte[2].port$o[3].channel typename "\"networks.Myned.C\""
+par Myned.rte[2].port$o[3].channel disabled false
+attr mutable ""
+par Myned.rte[2].port$o[3].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[2].port$o[3].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[2].port$o[3].channel ber 0
+attr mutable ""
+par Myned.rte[2].port$o[3].channel per 0
+attr mutable ""
+par Myned.rte[8].port$o[0].channel typename "\"networks.Myned.C\""
+par Myned.rte[8].port$o[0].channel disabled false
+attr mutable ""
+par Myned.rte[8].port$o[0].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[8].port$o[0].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[8].port$o[0].channel ber 0
+attr mutable ""
+par Myned.rte[8].port$o[0].channel per 0
+attr mutable ""
+par Myned.rte[3].port$o[2].channel typename "\"networks.Myned.C\""
+par Myned.rte[3].port$o[2].channel disabled false
+attr mutable ""
+par Myned.rte[3].port$o[2].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[3].port$o[2].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[3].port$o[2].channel ber 0
+attr mutable ""
+par Myned.rte[3].port$o[2].channel per 0
+attr mutable ""
+par Myned.rte[4].port$o[2].channel typename "\"networks.Myned.C\""
+par Myned.rte[4].port$o[2].channel disabled false
+attr mutable ""
+par Myned.rte[4].port$o[2].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[4].port$o[2].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[4].port$o[2].channel ber 0
+attr mutable ""
+par Myned.rte[4].port$o[2].channel per 0
+attr mutable ""
+par Myned.rte[3].port$o[3].channel typename "\"networks.Myned.C\""
+par Myned.rte[3].port$o[3].channel disabled false
+attr mutable ""
+par Myned.rte[3].port$o[3].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[3].port$o[3].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[3].port$o[3].channel ber 0
+attr mutable ""
+par Myned.rte[3].port$o[3].channel per 0
+attr mutable ""
+par Myned.rte[5].port$o[2].channel typename "\"networks.Myned.C\""
+par Myned.rte[5].port$o[2].channel disabled false
+attr mutable ""
+par Myned.rte[5].port$o[2].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[5].port$o[2].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[5].port$o[2].channel ber 0
+attr mutable ""
+par Myned.rte[5].port$o[2].channel per 0
+attr mutable ""
+par Myned.rte[3].port$o[4].channel typename "\"networks.Myned.C\""
+par Myned.rte[3].port$o[4].channel disabled false
+attr mutable ""
+par Myned.rte[3].port$o[4].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[3].port$o[4].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[3].port$o[4].channel ber 0
+attr mutable ""
+par Myned.rte[3].port$o[4].channel per 0
+attr mutable ""
+par Myned.rte[6].port$o[1].channel typename "\"networks.Myned.C\""
+par Myned.rte[6].port$o[1].channel disabled false
+attr mutable ""
+par Myned.rte[6].port$o[1].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[6].port$o[1].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[6].port$o[1].channel ber 0
+attr mutable ""
+par Myned.rte[6].port$o[1].channel per 0
+attr mutable ""
+par Myned.rte[3].port$o[5].channel typename "\"networks.Myned.C\""
+par Myned.rte[3].port$o[5].channel disabled false
+attr mutable ""
+par Myned.rte[3].port$o[5].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[3].port$o[5].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[3].port$o[5].channel ber 0
+attr mutable ""
+par Myned.rte[3].port$o[5].channel per 0
+attr mutable ""
+par Myned.rte[8].port$o[1].channel typename "\"networks.Myned.C\""
+par Myned.rte[8].port$o[1].channel disabled false
+attr mutable ""
+par Myned.rte[8].port$o[1].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[8].port$o[1].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[8].port$o[1].channel ber 0
+attr mutable ""
+par Myned.rte[8].port$o[1].channel per 0
+attr mutable ""
+par Myned.rte[4].port$o[3].channel typename "\"networks.Myned.C\""
+par Myned.rte[4].port$o[3].channel disabled false
+attr mutable ""
+par Myned.rte[4].port$o[3].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[4].port$o[3].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[4].port$o[3].channel ber 0
+attr mutable ""
+par Myned.rte[4].port$o[3].channel per 0
+attr mutable ""
+par Myned.rte[5].port$o[3].channel typename "\"networks.Myned.C\""
+par Myned.rte[5].port$o[3].channel disabled false
+attr mutable ""
+par Myned.rte[5].port$o[3].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[5].port$o[3].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[5].port$o[3].channel ber 0
+attr mutable ""
+par Myned.rte[5].port$o[3].channel per 0
+attr mutable ""
+par Myned.rte[4].port$o[4].channel typename "\"networks.Myned.C\""
+par Myned.rte[4].port$o[4].channel disabled false
+attr mutable ""
+par Myned.rte[4].port$o[4].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[4].port$o[4].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[4].port$o[4].channel ber 0
+attr mutable ""
+par Myned.rte[4].port$o[4].channel per 0
+attr mutable ""
+par Myned.rte[6].port$o[2].channel typename "\"networks.Myned.C\""
+par Myned.rte[6].port$o[2].channel disabled false
+attr mutable ""
+par Myned.rte[6].port$o[2].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[6].port$o[2].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[6].port$o[2].channel ber 0
+attr mutable ""
+par Myned.rte[6].port$o[2].channel per 0
+attr mutable ""
+par Myned.rte[4].port$o[5].channel typename "\"networks.Myned.C\""
+par Myned.rte[4].port$o[5].channel disabled false
+attr mutable ""
+par Myned.rte[4].port$o[5].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[4].port$o[5].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[4].port$o[5].channel ber 0
+attr mutable ""
+par Myned.rte[4].port$o[5].channel per 0
+attr mutable ""
+par Myned.rte[7].port$o[0].channel typename "\"networks.Myned.C\""
+par Myned.rte[7].port$o[0].channel disabled false
+attr mutable ""
+par Myned.rte[7].port$o[0].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[7].port$o[0].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[7].port$o[0].channel ber 0
+attr mutable ""
+par Myned.rte[7].port$o[0].channel per 0
+attr mutable ""
+par Myned.rte[4].port$o[6].channel typename "\"networks.Myned.C\""
+par Myned.rte[4].port$o[6].channel disabled false
+attr mutable ""
+par Myned.rte[4].port$o[6].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[4].port$o[6].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[4].port$o[6].channel ber 0
+attr mutable ""
+par Myned.rte[4].port$o[6].channel per 0
+attr mutable ""
+par Myned.rte[8].port$o[2].channel typename "\"networks.Myned.C\""
+par Myned.rte[8].port$o[2].channel disabled false
+attr mutable ""
+par Myned.rte[8].port$o[2].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[8].port$o[2].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[8].port$o[2].channel ber 0
+attr mutable ""
+par Myned.rte[8].port$o[2].channel per 0
+attr mutable ""
+par Myned.rte[5].port$o[4].channel typename "\"networks.Myned.C\""
+par Myned.rte[5].port$o[4].channel disabled false
+attr mutable ""
+par Myned.rte[5].port$o[4].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[5].port$o[4].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[5].port$o[4].channel ber 0
+attr mutable ""
+par Myned.rte[5].port$o[4].channel per 0
+attr mutable ""
+par Myned.rte[6].port$o[3].channel typename "\"networks.Myned.C\""
+par Myned.rte[6].port$o[3].channel disabled false
+attr mutable ""
+par Myned.rte[6].port$o[3].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[6].port$o[3].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[6].port$o[3].channel ber 0
+attr mutable ""
+par Myned.rte[6].port$o[3].channel per 0
+attr mutable ""
+par Myned.rte[5].port$o[5].channel typename "\"networks.Myned.C\""
+par Myned.rte[5].port$o[5].channel disabled false
+attr mutable ""
+par Myned.rte[5].port$o[5].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[5].port$o[5].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[5].port$o[5].channel ber 0
+attr mutable ""
+par Myned.rte[5].port$o[5].channel per 0
+attr mutable ""
+par Myned.rte[8].port$o[3].channel typename "\"networks.Myned.C\""
+par Myned.rte[8].port$o[3].channel disabled false
+attr mutable ""
+par Myned.rte[8].port$o[3].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[8].port$o[3].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[8].port$o[3].channel ber 0
+attr mutable ""
+par Myned.rte[8].port$o[3].channel per 0
+attr mutable ""
+par Myned.rte[6].port$o[4].channel typename "\"networks.Myned.C\""
+par Myned.rte[6].port$o[4].channel disabled false
+attr mutable ""
+par Myned.rte[6].port$o[4].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[6].port$o[4].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[6].port$o[4].channel ber 0
+attr mutable ""
+par Myned.rte[6].port$o[4].channel per 0
+attr mutable ""
+par Myned.rte[7].port$o[1].channel typename "\"networks.Myned.C\""
+par Myned.rte[7].port$o[1].channel disabled false
+attr mutable ""
+par Myned.rte[7].port$o[1].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[7].port$o[1].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[7].port$o[1].channel ber 0
+attr mutable ""
+par Myned.rte[7].port$o[1].channel per 0
+attr mutable ""
+par Myned.rte[7].port$o[2].channel typename "\"networks.Myned.C\""
+par Myned.rte[7].port$o[2].channel disabled false
+attr mutable ""
+par Myned.rte[7].port$o[2].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[7].port$o[2].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[7].port$o[2].channel ber 0
+attr mutable ""
+par Myned.rte[7].port$o[2].channel per 0
+attr mutable ""
+par Myned.rte[8].port$o[4].channel typename "\"networks.Myned.C\""
+par Myned.rte[8].port$o[4].channel disabled false
+attr mutable ""
+par Myned.rte[8].port$o[4].channel delay 0.02s
+attr mutable ""
+attr unit s
+par Myned.rte[8].port$o[4].channel datarate 100000bps
+attr mutable ""
+attr unit bps
+par Myned.rte[8].port$o[4].channel ber 0
+attr mutable ""
+par Myned.rte[8].port$o[4].channel per 0
+attr mutable ""
+par Myned.rte[0].app typename "\"node.App\""
+par Myned.rte[0].app address 0
+par Myned.rte[0].app destAddresses "\"0 1 2 3 4 5 6 7 8\""
+par Myned.rte[0].app sendIaTime "uniform(30ms, 150ms)"
+attr unit s
+par Myned.rte[0].app packetLength 4096byte
+attr unit byte
+scalar Myned.rte[0].app receiveCount:count 69396
+attr interpolationmode none
+attr recordingmode count
+attr title "receive count, count"
+scalar Myned.rte[0].app sendCount:count 119023
+attr interpolationmode none
+attr recordingmode count
+attr title "send count, count"
+scalar Myned.rte[0].app sourceAddress:mean 3.6460314715546
+attr interpolationmode none
+attr recordingmode mean
+attr title "source address of arrived packets, mean"
+scalar Myned.rte[0].app sourceAddress:max 8
+attr interpolationmode none
+attr recordingmode max
+attr title "source address of arrived packets, max"
+scalar Myned.rte[0].app hopCount:mean 1.3768228716353
+attr interpolationmode none
+attr recordingmode mean
+attr title "hop count of arrived packets, mean"
+scalar Myned.rte[0].app hopCount:max 3
+attr interpolationmode none
+attr recordingmode max
+attr title "hop count of arrived packets, max"
+scalar Myned.rte[0].app endToEndDelay:mean 1.2591870145635
+attr interpolationmode none
+attr recordingmode mean
+attr title "end-to-end delay of arrived packets, mean"
+attr unit s
+scalar Myned.rte[0].app endToEndDelay:max 3.9915429179
+attr interpolationmode none
+attr recordingmode max
+attr title "end-to-end delay of arrived packets, max"
+attr unit s
+scalar Myned.rte[0].app endToEndDelay:min 0
+attr interpolationmode none
+attr recordingmode min
+attr title "end-to-end delay of arrived packets, min"
+attr unit s
+par Myned.rte[0].routing typename "\"node.Routing\""
+statistic Myned.rte[0].routing outputIf:histogram
+field count 175087
+field mean -0.24528377320989
+field stddev 0.69803863541533
+field min -1
+field max 1
+field sum -42946
+field sqrsum 95846
+attr interpolationmode none
+attr recordingmode histogram
+attr title "output interface for each routed packet"
+bin	-inf	0
+bin	-2	0
+bin	-1	69396
+bin	0	79241
+bin	1	26450
+bin	2	0
+scalar Myned.rte[0].routing drop:count 0
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[0].routing drop:sum 0
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[0].queue[0] typename "\"node.L2Queue\""
+par Myned.rte[0].queue[0] frameCapacity 3
+par Myned.rte[0].queue[0] useCutThroughSwitching false
+scalar Myned.rte[0].queue[0] rxBytes:count 32647
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[0].queue[0] rxBytes:sum 133722112
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[0].queue[0] rxBytes:histogram
+field count 32647
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 133722112
+field sqrsum 547725770752
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	32647
+bin	4097	0
+scalar Myned.rte[0].queue[0] txBytes:count 32718
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[0].queue[0] txBytes:sum 134012928
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[0].queue[0] txBytes:histogram
+field count 32718
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 134012928
+field sqrsum 548916953088
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	32718
+bin	4097	0
+scalar Myned.rte[0].queue[0] busy:timeavg 0.99996520528285
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[0].queue[0] qlen:timeavg 2.6899413654468
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[0].queue[0] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[0].queue[0] drop:count 46520
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[0].queue[0] drop:sum 190545920
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[0].queue[1] typename "\"node.L2Queue\""
+par Myned.rte[0].queue[1] frameCapacity 3
+par Myned.rte[0].queue[1] useCutThroughSwitching false
+scalar Myned.rte[0].queue[1] rxBytes:count 23417
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[0].queue[1] rxBytes:sum 95916032
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[0].queue[1] rxBytes:histogram
+field count 23417
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 95916032
+field sqrsum 392872067072
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	23417
+bin	4097	0
+scalar Myned.rte[0].queue[1] txBytes:count 25413
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[0].queue[1] txBytes:sum 104091648
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[0].queue[1] txBytes:histogram
+field count 25413
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 104091648
+field sqrsum 426359390208
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25413
+bin	4097	0
+scalar Myned.rte[0].queue[1] busy:timeavg 0.77670096294684
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[0].queue[1] qlen:timeavg 0.71702183306979
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[0].queue[1] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[0].queue[1] drop:count 1035
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[0].queue[1] drop:sum 4239360
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[0] typename "\"node.Node\""
+par Myned.rte[0] address 0
+par Myned.rte[0] appType "\"App\""
+par Myned.rte[1].app typename "\"node.App\""
+par Myned.rte[1].app address 1
+par Myned.rte[1].app destAddresses "\"0 1 2 3 4 5 6 7 8\""
+par Myned.rte[1].app sendIaTime "uniform(30ms, 150ms)"
+attr unit s
+par Myned.rte[1].app packetLength 4096byte
+attr unit byte
+scalar Myned.rte[1].app receiveCount:count 82967
+attr interpolationmode none
+attr recordingmode count
+attr title "receive count, count"
+scalar Myned.rte[1].app sendCount:count 118983
+attr interpolationmode none
+attr recordingmode count
+attr title "send count, count"
+scalar Myned.rte[1].app sourceAddress:mean 3.8293176805236
+attr interpolationmode none
+attr recordingmode mean
+attr title "source address of arrived packets, mean"
+scalar Myned.rte[1].app sourceAddress:max 8
+attr interpolationmode none
+attr recordingmode max
+attr title "source address of arrived packets, max"
+scalar Myned.rte[1].app hopCount:mean 0.97341111526269
+attr interpolationmode none
+attr recordingmode mean
+attr title "hop count of arrived packets, mean"
+scalar Myned.rte[1].app hopCount:max 2
+attr interpolationmode none
+attr recordingmode max
+attr title "hop count of arrived packets, max"
+scalar Myned.rte[1].app endToEndDelay:mean 0.86734817525071
+attr interpolationmode none
+attr recordingmode mean
+attr title "end-to-end delay of arrived packets, mean"
+attr unit s
+scalar Myned.rte[1].app endToEndDelay:max 2.66091729179
+attr interpolationmode none
+attr recordingmode max
+attr title "end-to-end delay of arrived packets, max"
+attr unit s
+scalar Myned.rte[1].app endToEndDelay:min 0
+attr interpolationmode none
+attr recordingmode min
+attr title "end-to-end delay of arrived packets, min"
+attr unit s
+par Myned.rte[1].routing typename "\"node.Routing\""
+statistic Myned.rte[1].routing outputIf:histogram
+field count 297705
+field mean 1.0894106582019
+field stddev 1.9463400397563
+field min -1
+field max 5
+field sum 324323
+field sqrsum 1481095
+attr interpolationmode none
+attr recordingmode histogram
+attr title "output interface for each routed packet"
+bin	-inf	0
+bin	-3	0
+bin	-2	0
+bin	-1	82968
+bin	0	58477
+bin	1	55305
+bin	2	19940
+bin	3	37204
+bin	4	18561
+bin	5	25250
+bin	6	0
+bin	7	0
+scalar Myned.rte[1].routing drop:count 0
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].routing drop:sum 0
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[1].queue[0] typename "\"node.L2Queue\""
+par Myned.rte[1].queue[0] frameCapacity 3
+par Myned.rte[1].queue[0] useCutThroughSwitching false
+scalar Myned.rte[1].queue[0] rxBytes:count 32717
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[0] rxBytes:sum 134008832
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[1].queue[0] rxBytes:histogram
+field count 32717
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 134008832
+field sqrsum 548900175872
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	32717
+bin	4097	0
+scalar Myned.rte[1].queue[0] txBytes:count 32649
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[0] txBytes:sum 133730304
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[1].queue[0] txBytes:histogram
+field count 32649
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 133730304
+field sqrsum 547759325184
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	32649
+bin	4097	0
+scalar Myned.rte[1].queue[0] busy:timeavg 0.99783708408718
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[1].queue[0] qlen:timeavg 2.4173291529562
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[1].queue[0] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[1].queue[0] drop:count 25826
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[0] drop:sum 105783296
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[1].queue[1] typename "\"node.L2Queue\""
+par Myned.rte[1].queue[1] frameCapacity 3
+par Myned.rte[1].queue[1] useCutThroughSwitching false
+scalar Myned.rte[1].queue[1] rxBytes:count 32700
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[1] rxBytes:sum 133939200
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[1].queue[1] rxBytes:histogram
+field count 32700
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 133939200
+field sqrsum 548614963200
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	32700
+bin	4097	0
+scalar Myned.rte[1].queue[1] txBytes:count 32608
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[1] txBytes:sum 133562368
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[1].queue[1] txBytes:histogram
+field count 32608
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 133562368
+field sqrsum 547071459328
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	32608
+bin	4097	0
+scalar Myned.rte[1].queue[1] busy:timeavg 0.99659294190563
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[1].queue[1] qlen:timeavg 2.3220710147248
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[1].queue[1] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[1].queue[1] drop:count 22695
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[1] drop:sum 92958720
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[1].queue[2] typename "\"node.L2Queue\""
+par Myned.rte[1].queue[2] frameCapacity 3
+par Myned.rte[1].queue[2] useCutThroughSwitching false
+scalar Myned.rte[1].queue[2] rxBytes:count 25554
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[2] rxBytes:sum 104669184
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[1].queue[2] rxBytes:histogram
+field count 25554
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 104669184
+field sqrsum 428724977664
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25554
+bin	4097	0
+scalar Myned.rte[1].queue[2] txBytes:count 19739
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[2] txBytes:sum 80850944
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[1].queue[2] txBytes:histogram
+field count 19739
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 80850944
+field sqrsum 331165466624
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	19739
+bin	4097	0
+scalar Myned.rte[1].queue[2] busy:timeavg 0.60329228284718
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[1].queue[2] qlen:timeavg 0.32960770149117
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[1].queue[2] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[1].queue[2] drop:count 201
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[2] drop:sum 823296
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[1].queue[3] typename "\"node.L2Queue\""
+par Myned.rte[1].queue[3] frameCapacity 3
+par Myned.rte[1].queue[3] useCutThroughSwitching false
+scalar Myned.rte[1].queue[3] rxBytes:count 30953
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[3] rxBytes:sum 126783488
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[1].queue[3] rxBytes:histogram
+field count 30953
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 126783488
+field sqrsum 519305166848
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	30953
+bin	4097	0
+scalar Myned.rte[1].queue[3] txBytes:count 30851
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[3] txBytes:sum 126365696
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[1].queue[3] txBytes:histogram
+field count 30851
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 126365696
+field sqrsum 517593890816
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	30851
+bin	4097	0
+scalar Myned.rte[1].queue[3] busy:timeavg 0.94291097626284
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[1].queue[3] qlen:timeavg 1.5725666747606
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[1].queue[3] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[1].queue[3] drop:count 6352
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[3] drop:sum 26017792
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[1].queue[4] typename "\"node.L2Queue\""
+par Myned.rte[1].queue[4] frameCapacity 3
+par Myned.rte[1].queue[4] useCutThroughSwitching false
+scalar Myned.rte[1].queue[4] rxBytes:count 25263
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[4] rxBytes:sum 103477248
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[1].queue[4] rxBytes:histogram
+field count 25263
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 103477248
+field sqrsum 423842807808
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25263
+bin	4097	0
+scalar Myned.rte[1].queue[4] txBytes:count 18422
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[4] txBytes:sum 75456512
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[1].queue[4] txBytes:histogram
+field count 18422
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 75456512
+field sqrsum 309069873152
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	18422
+bin	4097	0
+scalar Myned.rte[1].queue[4] busy:timeavg 0.56302801000343
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[1].queue[4] qlen:timeavg 0.26858226639529
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[1].queue[4] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[1].queue[4] drop:count 138
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[4] drop:sum 565248
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[1].queue[5] typename "\"node.L2Queue\""
+par Myned.rte[1].queue[5] frameCapacity 3
+par Myned.rte[1].queue[5] useCutThroughSwitching false
+scalar Myned.rte[1].queue[5] rxBytes:count 31535
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[5] rxBytes:sum 129167360
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[1].queue[5] rxBytes:histogram
+field count 31535
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 129167360
+field sqrsum 529069506560
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	31535
+bin	4097	0
+scalar Myned.rte[1].queue[5] txBytes:count 24464
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[5] txBytes:sum 100204544
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[1].queue[5] txBytes:histogram
+field count 24464
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 100204544
+field sqrsum 410437812224
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	24464
+bin	4097	0
+scalar Myned.rte[1].queue[5] busy:timeavg 0.747700639344
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[1].queue[5] qlen:timeavg 0.63988653752489
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[1].queue[5] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[1].queue[5] drop:count 784
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[1].queue[5] drop:sum 3211264
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[1] typename "\"node.Node\""
+par Myned.rte[1] address 1
+par Myned.rte[1] appType "\"App\""
+par Myned.rte[2].app typename "\"node.App\""
+par Myned.rte[2].app address 2
+par Myned.rte[2].app destAddresses "\"0 1 2 3 4 5 6 7 8\""
+par Myned.rte[2].app sendIaTime "uniform(30ms, 150ms)"
+attr unit s
+par Myned.rte[2].app packetLength 4096byte
+attr unit byte
+scalar Myned.rte[2].app receiveCount:count 82816
+attr interpolationmode none
+attr recordingmode count
+attr title "receive count, count"
+scalar Myned.rte[2].app sendCount:count 118874
+attr interpolationmode none
+attr recordingmode count
+attr title "send count, count"
+scalar Myned.rte[2].app sourceAddress:mean 4.2665789219474
+attr interpolationmode none
+attr recordingmode mean
+attr title "source address of arrived packets, mean"
+scalar Myned.rte[2].app sourceAddress:max 8
+attr interpolationmode none
+attr recordingmode max
+attr title "source address of arrived packets, max"
+scalar Myned.rte[2].app hopCount:mean 1.1161249034003
+attr interpolationmode none
+attr recordingmode mean
+attr title "hop count of arrived packets, mean"
+scalar Myned.rte[2].app hopCount:max 2
+attr interpolationmode none
+attr recordingmode max
+attr title "hop count of arrived packets, max"
+scalar Myned.rte[2].app endToEndDelay:mean 0.88068604708596
+attr interpolationmode none
+attr recordingmode mean
+attr title "end-to-end delay of arrived packets, mean"
+attr unit s
+scalar Myned.rte[2].app endToEndDelay:max 2.661169899767
+attr interpolationmode none
+attr recordingmode max
+attr title "end-to-end delay of arrived packets, max"
+attr unit s
+scalar Myned.rte[2].app endToEndDelay:min 0
+attr interpolationmode none
+attr recordingmode min
+attr title "end-to-end delay of arrived packets, min"
+attr unit s
+par Myned.rte[2].routing typename "\"node.Routing\""
+statistic Myned.rte[2].routing outputIf:histogram
+field count 208648
+field mean 0.15655074575361
+field stddev 1.2861841930055
+field min -1
+field max 3
+field sum 32664
+field sqrsum 350272
+attr interpolationmode none
+attr recordingmode histogram
+attr title "output interface for each routed packet"
+bin	-inf	0
+bin	-2	0
+bin	-1	82816
+bin	0	65391
+bin	1	26351
+bin	2	13141
+bin	3	20949
+bin	4	0
+scalar Myned.rte[2].routing drop:count 0
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].routing drop:sum 0
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[2].queue[0] typename "\"node.L2Queue\""
+par Myned.rte[2].queue[0] frameCapacity 3
+par Myned.rte[2].queue[0] useCutThroughSwitching false
+scalar Myned.rte[2].queue[0] rxBytes:count 32607
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].queue[0] rxBytes:sum 133558272
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[2].queue[0] rxBytes:histogram
+field count 32607
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 133558272
+field sqrsum 547054682112
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	32607
+bin	4097	0
+scalar Myned.rte[2].queue[0] txBytes:count 32701
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].queue[0] txBytes:sum 133943296
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[2].queue[0] txBytes:histogram
+field count 32701
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 133943296
+field sqrsum 548631740416
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	32701
+bin	4097	0
+scalar Myned.rte[2].queue[0] busy:timeavg 0.99942824983757
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[2].queue[0] qlen:timeavg 2.5241089303626
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[2].queue[0] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[2].queue[0] drop:count 32688
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].queue[0] drop:sum 133890048
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[2].queue[1] typename "\"node.L2Queue\""
+par Myned.rte[2].queue[1] frameCapacity 3
+par Myned.rte[2].queue[1] useCutThroughSwitching false
+scalar Myned.rte[2].queue[1] rxBytes:count 18670
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].queue[1] rxBytes:sum 76472320
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[2].queue[1] rxBytes:histogram
+field count 18670
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 76472320
+field sqrsum 313230622720
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	18670
+bin	4097	0
+scalar Myned.rte[2].queue[1] txBytes:count 25354
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].queue[1] txBytes:sum 103849984
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[2].queue[1] txBytes:histogram
+field count 25354
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 103849984
+field sqrsum 425369534464
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25354
+bin	4097	0
+scalar Myned.rte[2].queue[1] busy:timeavg 0.77490615225224
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[2].queue[1] qlen:timeavg 0.69215730705113
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[2].queue[1] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[2].queue[1] drop:count 997
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].queue[1] drop:sum 4083712
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[2].queue[2] typename "\"node.L2Queue\""
+par Myned.rte[2].queue[2] frameCapacity 3
+par Myned.rte[2].queue[2] useCutThroughSwitching false
+scalar Myned.rte[2].queue[2] rxBytes:count 13082
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].queue[2] rxBytes:sum 53583872
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[2].queue[2] rxBytes:histogram
+field count 13082
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53583872
+field sqrsum 219479539712
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13082
+bin	4097	0
+scalar Myned.rte[2].queue[2] txBytes:count 13128
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].queue[2] txBytes:sum 53772288
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[2].queue[2] txBytes:histogram
+field count 13128
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53772288
+field sqrsum 220251291648
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13128
+bin	4097	0
+scalar Myned.rte[2].queue[2] busy:timeavg 0.40120894310433
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[2].queue[2] qlen:timeavg 0.10381345471317
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[2].queue[2] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[2].queue[2] drop:count 13
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].queue[2] drop:sum 53248
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[2].queue[3] typename "\"node.L2Queue\""
+par Myned.rte[2].queue[3] frameCapacity 3
+par Myned.rte[2].queue[3] useCutThroughSwitching false
+scalar Myned.rte[2].queue[3] rxBytes:count 25415
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].queue[3] rxBytes:sum 104099840
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[2].queue[3] rxBytes:histogram
+field count 25415
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 104099840
+field sqrsum 426392944640
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25415
+bin	4097	0
+scalar Myned.rte[2].queue[3] txBytes:count 20726
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].queue[3] txBytes:sum 84893696
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[2].queue[3] txBytes:histogram
+field count 20726
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 84893696
+field sqrsum 347724578816
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	20726
+bin	4097	0
+scalar Myned.rte[2].queue[3] busy:timeavg 0.63343595691007
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[2].queue[3] qlen:timeavg 0.37425746200977
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[2].queue[3] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[2].queue[3] drop:count 223
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[2].queue[3] drop:sum 913408
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[2] typename "\"node.Node\""
+par Myned.rte[2] address 2
+par Myned.rte[2] appType "\"App\""
+par Myned.rte[3].app typename "\"node.App\""
+par Myned.rte[3].app address 3
+par Myned.rte[3].app destAddresses "\"0 1 2 3 4 5 6 7 8\""
+par Myned.rte[3].app sendIaTime "uniform(30ms, 150ms)"
+attr unit s
+par Myned.rte[3].app packetLength 4096byte
+attr unit byte
+scalar Myned.rte[3].app receiveCount:count 101092
+attr interpolationmode none
+attr recordingmode count
+attr title "receive count, count"
+scalar Myned.rte[3].app sendCount:count 119264
+attr interpolationmode none
+attr recordingmode count
+attr title "send count, count"
+scalar Myned.rte[3].app sourceAddress:mean 3.8122996874134
+attr interpolationmode none
+attr recordingmode mean
+attr title "source address of arrived packets, mean"
+scalar Myned.rte[3].app sourceAddress:max 8
+attr interpolationmode none
+attr recordingmode max
+attr title "source address of arrived packets, max"
+scalar Myned.rte[3].app hopCount:mean 0.98809994856171
+attr interpolationmode none
+attr recordingmode mean
+attr title "hop count of arrived packets, mean"
+scalar Myned.rte[3].app hopCount:max 2
+attr interpolationmode none
+attr recordingmode max
+attr title "hop count of arrived packets, max"
+scalar Myned.rte[3].app endToEndDelay:mean 0.65854848622145
+attr interpolationmode none
+attr recordingmode mean
+attr title "end-to-end delay of arrived packets, mean"
+attr unit s
+scalar Myned.rte[3].app endToEndDelay:max 2.660529764935
+attr interpolationmode none
+attr recordingmode max
+attr title "end-to-end delay of arrived packets, max"
+attr unit s
+scalar Myned.rte[3].app endToEndDelay:min 0
+attr interpolationmode none
+attr recordingmode min
+attr title "end-to-end delay of arrived packets, min"
+attr unit s
+par Myned.rte[3].routing typename "\"node.Routing\""
+statistic Myned.rte[3].routing outputIf:histogram
+field count 253588
+field mean 1.2083694812057
+field stddev 2.2899502072511
+field min -1
+field max 5
+field sum 306428
+field sqrsum 1700056
+attr interpolationmode none
+attr recordingmode histogram
+attr title "output interface for each routed packet"
+bin	-inf	0
+bin	-3	0
+bin	-2	0
+bin	-1	101092
+bin	0	23882
+bin	1	26586
+bin	2	26316
+bin	3	13318
+bin	4	23622
+bin	5	38772
+bin	6	0
+bin	7	0
+scalar Myned.rte[3].routing drop:count 0
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].routing drop:sum 0
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[3].queue[0] typename "\"node.L2Queue\""
+par Myned.rte[3].queue[0] frameCapacity 3
+par Myned.rte[3].queue[0] useCutThroughSwitching false
+scalar Myned.rte[3].queue[0] rxBytes:count 25412
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[0] rxBytes:sum 104087552
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[3].queue[0] rxBytes:histogram
+field count 25412
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 104087552
+field sqrsum 426342612992
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25412
+bin	4097	0
+scalar Myned.rte[3].queue[0] txBytes:count 23418
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[0] txBytes:sum 95920128
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[3].queue[0] txBytes:histogram
+field count 23418
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 95920128
+field sqrsum 392888844288
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	23418
+bin	4097	0
+scalar Myned.rte[3].queue[0] busy:timeavg 0.71571359429958
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[3].queue[0] qlen:timeavg 0.52691646790401
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[3].queue[0] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[3].queue[0] drop:count 463
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[0] drop:sum 1896448
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[3].queue[1] typename "\"node.L2Queue\""
+par Myned.rte[3].queue[1] frameCapacity 3
+par Myned.rte[3].queue[1] useCutThroughSwitching false
+scalar Myned.rte[3].queue[1] rxBytes:count 19738
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[1] rxBytes:sum 80846848
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[3].queue[1] rxBytes:histogram
+field count 19738
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 80846848
+field sqrsum 331148689408
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	19738
+bin	4097	0
+scalar Myned.rte[3].queue[1] txBytes:count 25555
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[1] txBytes:sum 104673280
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[3].queue[1] txBytes:histogram
+field count 25555
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 104673280
+field sqrsum 428741754880
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25555
+bin	4097	0
+scalar Myned.rte[3].queue[1] busy:timeavg 0.78104281752441
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[3].queue[1] qlen:timeavg 0.72504406494037
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[3].queue[1] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[3].queue[1] drop:count 1029
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[1] drop:sum 4214784
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[3].queue[2] typename "\"node.L2Queue\""
+par Myned.rte[3].queue[2] frameCapacity 3
+par Myned.rte[3].queue[2] useCutThroughSwitching false
+scalar Myned.rte[3].queue[2] rxBytes:count 18592
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[2] rxBytes:sum 76152832
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[3].queue[2] rxBytes:histogram
+field count 18592
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 76152832
+field sqrsum 311921999872
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	18592
+bin	4097	0
+scalar Myned.rte[3].queue[2] txBytes:count 25303
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[2] txBytes:sum 103641088
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[3].queue[2] txBytes:histogram
+field count 25303
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 103641088
+field sqrsum 424513896448
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25303
+bin	4097	0
+scalar Myned.rte[3].queue[2] busy:timeavg 0.77332039690742
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[3].queue[2] qlen:timeavg 0.70269989445364
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[3].queue[2] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[3].queue[2] drop:count 1011
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[2] drop:sum 4141056
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[3].queue[3] typename "\"node.L2Queue\""
+par Myned.rte[3].queue[3] frameCapacity 3
+par Myned.rte[3].queue[3] useCutThroughSwitching false
+scalar Myned.rte[3].queue[3] rxBytes:count 13518
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[3] rxBytes:sum 55369728
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[3].queue[3] rxBytes:histogram
+field count 13518
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 55369728
+field sqrsum 226794405888
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13518
+bin	4097	0
+scalar Myned.rte[3].queue[3] txBytes:count 13304
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[3] txBytes:sum 54493184
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[3].queue[3] txBytes:histogram
+field count 13304
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54493184
+field sqrsum 223204081664
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13304
+bin	4097	0
+scalar Myned.rte[3].queue[3] busy:timeavg 0.40661637018077
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[3].queue[3] qlen:timeavg 0.10500563529349
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[3].queue[3] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[3].queue[3] drop:count 14
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[3] drop:sum 57344
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[3].queue[4] typename "\"node.L2Queue\""
+par Myned.rte[3].queue[4] frameCapacity 3
+par Myned.rte[3].queue[4] useCutThroughSwitching false
+scalar Myned.rte[3].queue[4] rxBytes:count 25478
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[4] rxBytes:sum 104357888
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[3].queue[4] rxBytes:histogram
+field count 25478
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 104357888
+field sqrsum 427449909248
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25478
+bin	4097	0
+scalar Myned.rte[3].queue[4] txBytes:count 23187
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[4] txBytes:sum 94973952
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[3].queue[4] txBytes:histogram
+field count 23187
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 94973952
+field sqrsum 389013307392
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	23187
+bin	4097	0
+scalar Myned.rte[3].queue[4] busy:timeavg 0.70867511841418
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[3].queue[4] qlen:timeavg 0.5049304824783
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[3].queue[4] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[3].queue[4] drop:count 435
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[4] drop:sum 1781760
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[3].queue[5] typename "\"node.L2Queue\""
+par Myned.rte[3].queue[5] frameCapacity 3
+par Myned.rte[3].queue[5] useCutThroughSwitching false
+scalar Myned.rte[3].queue[5] rxBytes:count 31586
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[5] rxBytes:sum 129376256
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[3].queue[5] rxBytes:histogram
+field count 31586
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 129376256
+field sqrsum 529925144576
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	31586
+bin	4097	0
+scalar Myned.rte[3].queue[5] txBytes:count 31257
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[5] txBytes:sum 128028672
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[3].queue[5] txBytes:histogram
+field count 31257
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 128028672
+field sqrsum 524405440512
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	31257
+bin	4097	0
+scalar Myned.rte[3].queue[5] busy:timeavg 0.95531458071077
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[3].queue[5] qlen:timeavg 1.6957784150567
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[3].queue[5] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[3].queue[5] drop:count 7515
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[3].queue[5] drop:sum 30781440
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[3] typename "\"node.Node\""
+par Myned.rte[3] address 3
+par Myned.rte[3] appType "\"App\""
+par Myned.rte[4].app typename "\"node.App\""
+par Myned.rte[4].app address 4
+par Myned.rte[4].app destAddresses "\"0 1 2 3 4 5 6 7 8\""
+par Myned.rte[4].app sendIaTime "uniform(30ms, 150ms)"
+attr unit s
+par Myned.rte[4].app packetLength 4096byte
+attr unit byte
+scalar Myned.rte[4].app receiveCount:count 98587
+attr interpolationmode none
+attr recordingmode count
+attr title "receive count, count"
+scalar Myned.rte[4].app sendCount:count 119198
+attr interpolationmode none
+attr recordingmode count
+attr title "send count, count"
+scalar Myned.rte[4].app sourceAddress:mean 4.2133851319139
+attr interpolationmode none
+attr recordingmode mean
+attr title "source address of arrived packets, mean"
+scalar Myned.rte[4].app sourceAddress:max 8
+attr interpolationmode none
+attr recordingmode max
+attr title "source address of arrived packets, max"
+scalar Myned.rte[4].app hopCount:mean 0.91284855001166
+attr interpolationmode none
+attr recordingmode mean
+attr title "hop count of arrived packets, mean"
+scalar Myned.rte[4].app hopCount:max 2
+attr interpolationmode none
+attr recordingmode max
+attr title "hop count of arrived packets, max"
+scalar Myned.rte[4].app endToEndDelay:mean 0.63056276763224
+attr interpolationmode none
+attr recordingmode mean
+attr title "end-to-end delay of arrived packets, mean"
+attr unit s
+scalar Myned.rte[4].app endToEndDelay:max 2.6614066683
+attr interpolationmode none
+attr recordingmode max
+attr title "end-to-end delay of arrived packets, max"
+attr unit s
+scalar Myned.rte[4].app endToEndDelay:min 0
+attr interpolationmode none
+attr recordingmode min
+attr title "end-to-end delay of arrived packets, min"
+attr unit s
+par Myned.rte[4].routing typename "\"node.Routing\""
+statistic Myned.rte[4].routing outputIf:histogram
+field count 285439
+field mean 1.6856491229299
+field stddev 2.5905621561038
+field min -1
+field max 6
+field sum 481150
+field sqrsum 2726628
+attr interpolationmode none
+attr recordingmode histogram
+attr title "output interface for each routed packet"
+bin	-inf	0
+bin	-3	0
+bin	-2	0
+bin	-1	98587
+bin	0	37285
+bin	1	18799
+bin	2	18739
+bin	3	18487
+bin	4	13087
+bin	5	67079
+bin	6	13376
+bin	7	0
+bin	8	0
+scalar Myned.rte[4].routing drop:count 0
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].routing drop:sum 0
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[4].queue[0] typename "\"node.L2Queue\""
+par Myned.rte[4].queue[0] frameCapacity 3
+par Myned.rte[4].queue[0] useCutThroughSwitching false
+scalar Myned.rte[4].queue[0] rxBytes:count 30850
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[0] rxBytes:sum 126361600
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[0] rxBytes:histogram
+field count 30850
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 126361600
+field sqrsum 517577113600
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	30850
+bin	4097	0
+scalar Myned.rte[4].queue[0] txBytes:count 30954
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[0] txBytes:sum 126787584
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[0] txBytes:histogram
+field count 30954
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 126787584
+field sqrsum 519321944064
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	30954
+bin	4097	0
+scalar Myned.rte[4].queue[0] busy:timeavg 0.94603912634068
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[4].queue[0] qlen:timeavg 1.5835124039764
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[4].queue[0] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[4].queue[0] drop:count 6330
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[0] drop:sum 25927680
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[4].queue[1] typename "\"node.L2Queue\""
+par Myned.rte[4].queue[1] frameCapacity 3
+par Myned.rte[4].queue[1] useCutThroughSwitching false
+scalar Myned.rte[4].queue[1] rxBytes:count 25354
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[1] rxBytes:sum 103849984
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[1] rxBytes:histogram
+field count 25354
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 103849984
+field sqrsum 425369534464
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25354
+bin	4097	0
+scalar Myned.rte[4].queue[1] txBytes:count 18670
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[1] txBytes:sum 76472320
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[1] txBytes:histogram
+field count 18670
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 76472320
+field sqrsum 313230622720
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	18670
+bin	4097	0
+scalar Myned.rte[4].queue[1] busy:timeavg 0.57061993620532
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[4].queue[1] qlen:timeavg 0.27606287760744
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[4].queue[1] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[4].queue[1] drop:count 129
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[1] drop:sum 528384
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[4].queue[2] typename "\"node.L2Queue\""
+par Myned.rte[4].queue[2] frameCapacity 3
+par Myned.rte[4].queue[2] useCutThroughSwitching false
+scalar Myned.rte[4].queue[2] rxBytes:count 25302
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[2] rxBytes:sum 103636992
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[2] rxBytes:histogram
+field count 25302
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 103636992
+field sqrsum 424497119232
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25302
+bin	4097	0
+scalar Myned.rte[4].queue[2] txBytes:count 18593
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[2] txBytes:sum 76156928
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[2] txBytes:histogram
+field count 18593
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 76156928
+field sqrsum 311938777088
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	18593
+bin	4097	0
+scalar Myned.rte[4].queue[2] busy:timeavg 0.56825258932813
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[4].queue[2] qlen:timeavg 0.2740405799279
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[4].queue[2] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[4].queue[2] drop:count 146
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[2] drop:sum 598016
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[4].queue[3] typename "\"node.L2Queue\""
+par Myned.rte[4].queue[3] frameCapacity 3
+par Myned.rte[4].queue[3] useCutThroughSwitching false
+scalar Myned.rte[4].queue[3] rxBytes:count 25359
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[3] rxBytes:sum 103870464
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[3] rxBytes:histogram
+field count 25359
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 103870464
+field sqrsum 425453420544
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25359
+bin	4097	0
+scalar Myned.rte[4].queue[3] txBytes:count 18383
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[3] txBytes:sum 75296768
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[3] txBytes:histogram
+field count 18383
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 75296768
+field sqrsum 308415561728
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	18383
+bin	4097	0
+scalar Myned.rte[4].queue[3] busy:timeavg 0.56182577775813
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[4].queue[3] qlen:timeavg 0.26582845601918
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[4].queue[3] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[4].queue[3] drop:count 104
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[3] drop:sum 425984
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[4].queue[4] typename "\"node.L2Queue\""
+par Myned.rte[4].queue[4] frameCapacity 3
+par Myned.rte[4].queue[4] useCutThroughSwitching false
+scalar Myned.rte[4].queue[4] rxBytes:count 13315
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[4] rxBytes:sum 54538240
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[4] rxBytes:histogram
+field count 13315
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54538240
+field sqrsum 223388631040
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13315
+bin	4097	0
+scalar Myned.rte[4].queue[4] txBytes:count 13076
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[4] txBytes:sum 53559296
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[4] txBytes:histogram
+field count 13076
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53559296
+field sqrsum 219378876416
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13076
+bin	4097	0
+scalar Myned.rte[4].queue[4] busy:timeavg 0.39963323731859
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[4].queue[4] qlen:timeavg 0.097377311287402
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[4].queue[4] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[4].queue[4] drop:count 11
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[4] drop:sum 45056
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[4].queue[5] typename "\"node.L2Queue\""
+par Myned.rte[4].queue[5] frameCapacity 3
+par Myned.rte[4].queue[5] useCutThroughSwitching false
+scalar Myned.rte[4].queue[5] rxBytes:count 32718
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[5] rxBytes:sum 134012928
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[5] rxBytes:histogram
+field count 32718
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 134012928
+field sqrsum 548916953088
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	32718
+bin	4097	0
+scalar Myned.rte[4].queue[5] txBytes:count 32699
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[5] txBytes:sum 133935104
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[5] txBytes:histogram
+field count 32699
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 133935104
+field sqrsum 548598185984
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	32699
+bin	4097	0
+scalar Myned.rte[4].queue[5] busy:timeavg 0.99939107490253
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[4].queue[5] qlen:timeavg 2.5114646262497
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[4].queue[5] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[4].queue[5] drop:count 34377
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[5] drop:sum 140808192
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[4].queue[6] typename "\"node.L2Queue\""
+par Myned.rte[4].queue[6] frameCapacity 3
+par Myned.rte[4].queue[6] useCutThroughSwitching false
+scalar Myned.rte[4].queue[6] rxBytes:count 13343
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[6] rxBytes:sum 54652928
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[6] rxBytes:histogram
+field count 13343
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54652928
+field sqrsum 223858393088
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13343
+bin	4097	0
+scalar Myned.rte[4].queue[6] txBytes:count 13365
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[6] txBytes:sum 54743040
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[4].queue[6] txBytes:histogram
+field count 13365
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54743040
+field sqrsum 224227491840
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13365
+bin	4097	0
+scalar Myned.rte[4].queue[6] busy:timeavg 0.40845340877559
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[4].queue[6] qlen:timeavg 0.1072386132783
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[4].queue[6] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[4].queue[6] drop:count 11
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[4].queue[6] drop:sum 45056
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[4] typename "\"node.Node\""
+par Myned.rte[4] address 4
+par Myned.rte[4] appType "\"App\""
+par Myned.rte[5].app typename "\"node.App\""
+par Myned.rte[5].app address 5
+par Myned.rte[5].app destAddresses "\"0 1 2 3 4 5 6 7 8\""
+par Myned.rte[5].app sendIaTime "uniform(30ms, 150ms)"
+attr unit s
+par Myned.rte[5].app packetLength 4096byte
+attr unit byte
+scalar Myned.rte[5].app receiveCount:count 102488
+attr interpolationmode none
+attr recordingmode count
+attr title "receive count, count"
+scalar Myned.rte[5].app sendCount:count 118927
+attr interpolationmode none
+attr recordingmode count
+attr title "send count, count"
+scalar Myned.rte[5].app sourceAddress:mean 4.0734037155569
+attr interpolationmode none
+attr recordingmode mean
+attr title "source address of arrived packets, mean"
+scalar Myned.rte[5].app sourceAddress:max 8
+attr interpolationmode none
+attr recordingmode max
+attr title "source address of arrived packets, max"
+scalar Myned.rte[5].app hopCount:mean 0.97728514557802
+attr interpolationmode none
+attr recordingmode mean
+attr title "hop count of arrived packets, mean"
+scalar Myned.rte[5].app hopCount:max 2
+attr interpolationmode none
+attr recordingmode max
+attr title "hop count of arrived packets, max"
+scalar Myned.rte[5].app endToEndDelay:mean 0.53073973660709
+attr interpolationmode none
+attr recordingmode mean
+attr title "end-to-end delay of arrived packets, mean"
+attr unit s
+scalar Myned.rte[5].app endToEndDelay:max 2.660576098648
+attr interpolationmode none
+attr recordingmode max
+attr title "end-to-end delay of arrived packets, max"
+attr unit s
+scalar Myned.rte[5].app endToEndDelay:min 0
+attr interpolationmode none
+attr recordingmode min
+attr title "end-to-end delay of arrived packets, min"
+attr unit s
+par Myned.rte[5].routing typename "\"node.Routing\""
+statistic Myned.rte[5].routing outputIf:histogram
+field count 208369
+field mean 0.65558216433347
+field stddev 2.0354524410602
+field min -1
+field max 5
+field sum 136603
+field sqrsum 952837
+attr interpolationmode none
+attr recordingmode histogram
+attr title "output interface for each routed packet"
+bin	-inf	0
+bin	-3	0
+bin	-2	0
+bin	-1	102488
+bin	0	26256
+bin	1	13089
+bin	2	13530
+bin	3	26391
+bin	4	13306
+bin	5	13309
+bin	6	0
+bin	7	0
+scalar Myned.rte[5].routing drop:count 0
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].routing drop:sum 0
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[5].queue[0] typename "\"node.L2Queue\""
+par Myned.rte[5].queue[0] frameCapacity 3
+par Myned.rte[5].queue[0] useCutThroughSwitching false
+scalar Myned.rte[5].queue[0] rxBytes:count 18421
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[0] rxBytes:sum 75452416
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[5].queue[0] rxBytes:histogram
+field count 18421
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 75452416
+field sqrsum 309053095936
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	18421
+bin	4097	0
+scalar Myned.rte[5].queue[0] txBytes:count 25264
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[0] txBytes:sum 103481344
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[5].queue[0] txBytes:histogram
+field count 25264
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 103481344
+field sqrsum 423859585024
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25264
+bin	4097	0
+scalar Myned.rte[5].queue[0] busy:timeavg 0.77215384582347
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[5].queue[0] qlen:timeavg 0.69937651926915
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[5].queue[0] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[5].queue[0] drop:count 991
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[0] drop:sum 4059136
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[5].queue[1] typename "\"node.L2Queue\""
+par Myned.rte[5].queue[1] frameCapacity 3
+par Myned.rte[5].queue[1] useCutThroughSwitching false
+scalar Myned.rte[5].queue[1] rxBytes:count 13127
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[1] rxBytes:sum 53768192
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[5].queue[1] rxBytes:histogram
+field count 13127
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53768192
+field sqrsum 220234514432
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13127
+bin	4097	0
+scalar Myned.rte[5].queue[1] txBytes:count 13083
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[1] txBytes:sum 53587968
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[5].queue[1] txBytes:histogram
+field count 13083
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53587968
+field sqrsum 219496316928
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13083
+bin	4097	0
+scalar Myned.rte[5].queue[1] busy:timeavg 0.39985745575888
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[5].queue[1] qlen:timeavg 0.098838767314723
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[5].queue[1] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[5].queue[1] drop:count 6
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[1] drop:sum 24576
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[5].queue[2] typename "\"node.L2Queue\""
+par Myned.rte[5].queue[2] frameCapacity 3
+par Myned.rte[5].queue[2] useCutThroughSwitching false
+scalar Myned.rte[5].queue[2] rxBytes:count 13304
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[2] rxBytes:sum 54493184
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[5].queue[2] rxBytes:histogram
+field count 13304
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54493184
+field sqrsum 223204081664
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13304
+bin	4097	0
+scalar Myned.rte[5].queue[2] txBytes:count 13519
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[2] txBytes:sum 55373824
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[5].queue[2] txBytes:histogram
+field count 13519
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 55373824
+field sqrsum 226811183104
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13519
+bin	4097	0
+scalar Myned.rte[5].queue[2] busy:timeavg 0.4131640120474
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[5].queue[2] qlen:timeavg 0.10853338564717
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[5].queue[2] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[5].queue[2] drop:count 11
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[2] drop:sum 45056
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[5].queue[3] typename "\"node.L2Queue\""
+par Myned.rte[5].queue[3] frameCapacity 3
+par Myned.rte[5].queue[3] useCutThroughSwitching false
+scalar Myned.rte[5].queue[3] rxBytes:count 18382
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[3] rxBytes:sum 75292672
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[5].queue[3] rxBytes:histogram
+field count 18382
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 75292672
+field sqrsum 308398784512
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	18382
+bin	4097	0
+scalar Myned.rte[5].queue[3] txBytes:count 25360
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[3] txBytes:sum 103874560
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[5].queue[3] txBytes:histogram
+field count 25360
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 103874560
+field sqrsum 425470197760
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25360
+bin	4097	0
+scalar Myned.rte[5].queue[3] busy:timeavg 0.77506661349533
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[5].queue[3] qlen:timeavg 0.70104719122573
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[5].queue[3] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[5].queue[3] drop:count 1031
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[3] drop:sum 4222976
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[5].queue[4] typename "\"node.L2Queue\""
+par Myned.rte[5].queue[4] frameCapacity 3
+par Myned.rte[5].queue[4] useCutThroughSwitching false
+scalar Myned.rte[5].queue[4] rxBytes:count 13142
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[4] rxBytes:sum 53829632
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[5].queue[4] rxBytes:histogram
+field count 13142
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53829632
+field sqrsum 220486172672
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13142
+bin	4097	0
+scalar Myned.rte[5].queue[4] txBytes:count 13295
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[4] txBytes:sum 54456320
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[5].queue[4] txBytes:histogram
+field count 13295
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54456320
+field sqrsum 223053086720
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13295
+bin	4097	0
+scalar Myned.rte[5].queue[4] busy:timeavg 0.40631471485437
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[5].queue[4] qlen:timeavg 0.10846052870933
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[5].queue[4] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[5].queue[4] drop:count 11
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[4] drop:sum 45056
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[5].queue[5] typename "\"node.L2Queue\""
+par Myned.rte[5].queue[5] frameCapacity 3
+par Myned.rte[5].queue[5] useCutThroughSwitching false
+scalar Myned.rte[5].queue[5] rxBytes:count 13066
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[5] rxBytes:sum 53518336
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[5].queue[5] rxBytes:histogram
+field count 13066
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53518336
+field sqrsum 219211104256
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13066
+bin	4097	0
+scalar Myned.rte[5].queue[5] txBytes:count 13296
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[5] txBytes:sum 54460416
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[5].queue[5] txBytes:histogram
+field count 13296
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54460416
+field sqrsum 223069863936
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13296
+bin	4097	0
+scalar Myned.rte[5].queue[5] busy:timeavg 0.40637186244164
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[5].queue[5] qlen:timeavg 0.10840046184556
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[5].queue[5] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[5].queue[5] drop:count 13
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[5].queue[5] drop:sum 53248
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[5] typename "\"node.Node\""
+par Myned.rte[5] address 5
+par Myned.rte[5] appType "\"App\""
+par Myned.rte[6].app typename "\"node.App\""
+par Myned.rte[6].app address 6
+par Myned.rte[6].app destAddresses "\"0 1 2 3 4 5 6 7 8\""
+par Myned.rte[6].app sendIaTime "uniform(30ms, 150ms)"
+attr unit s
+par Myned.rte[6].app packetLength 4096byte
+attr unit byte
+scalar Myned.rte[6].app receiveCount:count 100402
+attr interpolationmode none
+attr recordingmode count
+attr title "receive count, count"
+scalar Myned.rte[6].app sendCount:count 119177
+attr interpolationmode none
+attr recordingmode count
+attr title "send count, count"
+scalar Myned.rte[6].app sourceAddress:mean 4.3512081432641
+attr interpolationmode none
+attr recordingmode mean
+attr title "source address of arrived packets, mean"
+scalar Myned.rte[6].app sourceAddress:max 8
+attr interpolationmode none
+attr recordingmode max
+attr title "source address of arrived packets, max"
+scalar Myned.rte[6].app hopCount:mean 1.0870201788809
+attr interpolationmode none
+attr recordingmode mean
+attr title "hop count of arrived packets, mean"
+scalar Myned.rte[6].app hopCount:max 2
+attr interpolationmode none
+attr recordingmode max
+attr title "hop count of arrived packets, max"
+scalar Myned.rte[6].app endToEndDelay:mean 0.6926663522375
+attr interpolationmode none
+attr recordingmode mean
+attr title "end-to-end delay of arrived packets, mean"
+attr unit s
+scalar Myned.rte[6].app endToEndDelay:max 2.660649718431
+attr interpolationmode none
+attr recordingmode max
+attr title "end-to-end delay of arrived packets, max"
+attr unit s
+scalar Myned.rte[6].app endToEndDelay:min 0
+attr interpolationmode none
+attr recordingmode min
+attr title "end-to-end delay of arrived packets, min"
+attr unit s
+par Myned.rte[6].routing typename "\"node.Routing\""
+statistic Myned.rte[6].routing outputIf:histogram
+field count 206302
+field mean 0.21592131923103
+field stddev 1.5538490204715
+field min -1
+field max 4
+field sum 44545
+field sqrsum 507721
+attr interpolationmode none
+attr recordingmode histogram
+attr title "output interface for each routed packet"
+bin	-inf	0
+bin	-3	0
+bin	-2	0
+bin	-1	100402
+bin	0	39788
+bin	1	26562
+bin	2	13331
+bin	3	13153
+bin	4	13066
+bin	5	0
+bin	6	0
+scalar Myned.rte[6].routing drop:count 0
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].routing drop:sum 0
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[6].queue[0] typename "\"node.L2Queue\""
+par Myned.rte[6].queue[0] frameCapacity 3
+par Myned.rte[6].queue[0] useCutThroughSwitching false
+scalar Myned.rte[6].queue[0] rxBytes:count 24463
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[0] rxBytes:sum 100200448
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[6].queue[0] rxBytes:histogram
+field count 24463
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 100200448
+field sqrsum 410421035008
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	24463
+bin	4097	0
+scalar Myned.rte[6].queue[0] txBytes:count 31536
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[0] txBytes:sum 129171456
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[6].queue[0] txBytes:histogram
+field count 31536
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 129171456
+field sqrsum 529086283776
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	31536
+bin	4097	0
+scalar Myned.rte[6].queue[0] busy:timeavg 0.9638291076016
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[6].queue[0] qlen:timeavg 1.7382100219666
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[6].queue[0] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[6].queue[0] drop:count 8250
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[0] drop:sum 33792000
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[6].queue[1] typename "\"node.L2Queue\""
+par Myned.rte[6].queue[1] frameCapacity 3
+par Myned.rte[6].queue[1] useCutThroughSwitching false
+scalar Myned.rte[6].queue[1] rxBytes:count 23187
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[1] rxBytes:sum 94973952
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[6].queue[1] rxBytes:histogram
+field count 23187
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 94973952
+field sqrsum 389013307392
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	23187
+bin	4097	0
+scalar Myned.rte[6].queue[1] txBytes:count 25479
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[1] txBytes:sum 104361984
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[6].queue[1] txBytes:histogram
+field count 25479
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 104361984
+field sqrsum 427466686464
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25479
+bin	4097	0
+scalar Myned.rte[6].queue[1] busy:timeavg 0.77871796923694
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[6].queue[1] qlen:timeavg 0.71652888838779
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[6].queue[1] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[6].queue[1] drop:count 1082
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[1] drop:sum 4431872
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[6].queue[2] typename "\"node.L2Queue\""
+par Myned.rte[6].queue[2] frameCapacity 3
+par Myned.rte[6].queue[2] useCutThroughSwitching false
+scalar Myned.rte[6].queue[2] rxBytes:count 13075
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[2] rxBytes:sum 53555200
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[6].queue[2] rxBytes:histogram
+field count 13075
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53555200
+field sqrsum 219362099200
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13075
+bin	4097	0
+scalar Myned.rte[6].queue[2] txBytes:count 13315
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[2] txBytes:sum 54538240
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[6].queue[2] txBytes:histogram
+field count 13315
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54538240
+field sqrsum 223388631040
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13315
+bin	4097	0
+scalar Myned.rte[6].queue[2] busy:timeavg 0.40695256832208
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[6].queue[2] qlen:timeavg 0.11059322810124
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[6].queue[2] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[6].queue[2] drop:count 16
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[2] drop:sum 65536
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[6].queue[3] typename "\"node.L2Queue\""
+par Myned.rte[6].queue[3] frameCapacity 3
+par Myned.rte[6].queue[3] useCutThroughSwitching false
+scalar Myned.rte[6].queue[3] rxBytes:count 13294
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[3] rxBytes:sum 54452224
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[6].queue[3] rxBytes:histogram
+field count 13294
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54452224
+field sqrsum 223036309504
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13294
+bin	4097	0
+scalar Myned.rte[6].queue[3] txBytes:count 13142
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[3] txBytes:sum 53829632
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[6].queue[3] txBytes:histogram
+field count 13142
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53829632
+field sqrsum 220486172672
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13142
+bin	4097	0
+scalar Myned.rte[6].queue[3] busy:timeavg 0.4016650884633
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[6].queue[3] qlen:timeavg 0.10067040751528
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[6].queue[3] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[6].queue[3] drop:count 11
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[3] drop:sum 45056
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[6].queue[4] typename "\"node.L2Queue\""
+par Myned.rte[6].queue[4] frameCapacity 3
+par Myned.rte[6].queue[4] useCutThroughSwitching false
+scalar Myned.rte[6].queue[4] rxBytes:count 13106
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[4] rxBytes:sum 53682176
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[6].queue[4] rxBytes:histogram
+field count 13106
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53682176
+field sqrsum 219882192896
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13106
+bin	4097	0
+scalar Myned.rte[6].queue[4] txBytes:count 13058
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[4] txBytes:sum 53485568
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[6].queue[4] txBytes:histogram
+field count 13058
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53485568
+field sqrsum 219076886528
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13058
+bin	4097	0
+scalar Myned.rte[6].queue[4] busy:timeavg 0.39906761654482
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[6].queue[4] qlen:timeavg 0.10248575227922
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[6].queue[4] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[6].queue[4] drop:count 8
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[6].queue[4] drop:sum 32768
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[6] typename "\"node.Node\""
+par Myned.rte[6] address 6
+par Myned.rte[6] appType "\"App\""
+par Myned.rte[7].app typename "\"node.App\""
+par Myned.rte[7].app address 7
+par Myned.rte[7].app destAddresses "\"0 1 2 3 4 5 6 7 8\""
+par Myned.rte[7].app sendIaTime "uniform(30ms, 150ms)"
+attr unit s
+par Myned.rte[7].app packetLength 4096byte
+attr unit byte
+scalar Myned.rte[7].app receiveCount:count 72385
+attr interpolationmode none
+attr recordingmode count
+attr title "receive count, count"
+scalar Myned.rte[7].app sendCount:count 119245
+attr interpolationmode none
+attr recordingmode count
+attr title "send count, count"
+scalar Myned.rte[7].app sourceAddress:mean 5.110906955861
+attr interpolationmode none
+attr recordingmode mean
+attr title "source address of arrived packets, mean"
+scalar Myned.rte[7].app sourceAddress:max 8
+attr interpolationmode none
+attr recordingmode max
+attr title "source address of arrived packets, max"
+scalar Myned.rte[7].app hopCount:mean 1.2209435656559
+attr interpolationmode none
+attr recordingmode mean
+attr title "hop count of arrived packets, mean"
+scalar Myned.rte[7].app hopCount:max 3
+attr interpolationmode none
+attr recordingmode max
+attr title "hop count of arrived packets, max"
+scalar Myned.rte[7].app endToEndDelay:mean 0.9938758564767
+attr interpolationmode none
+attr recordingmode mean
+attr title "end-to-end delay of arrived packets, mean"
+attr unit s
+scalar Myned.rte[7].app endToEndDelay:max 3.987159229799
+attr interpolationmode none
+attr recordingmode max
+attr title "end-to-end delay of arrived packets, max"
+attr unit s
+scalar Myned.rte[7].app endToEndDelay:min 0
+attr interpolationmode none
+attr recordingmode min
+attr title "end-to-end delay of arrived packets, min"
+attr unit s
+par Myned.rte[7].routing typename "\"node.Routing\""
+statistic Myned.rte[7].routing outputIf:histogram
+field count 178334
+field mean -0.18578061390425
+field stddev 0.85910238474526
+field min -1
+field max 2
+field sum -33131
+field sqrsum 137775
+attr interpolationmode none
+attr recordingmode histogram
+attr title "output interface for each routed packet"
+bin	-inf	0
+bin	-2	0
+bin	-1	72385
+bin	0	79763
+bin	1	13118
+bin	2	13068
+bin	3	0
+scalar Myned.rte[7].routing drop:count 0
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[7].routing drop:sum 0
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[7].queue[0] typename "\"node.L2Queue\""
+par Myned.rte[7].queue[0] frameCapacity 3
+par Myned.rte[7].queue[0] useCutThroughSwitching false
+scalar Myned.rte[7].queue[0] rxBytes:count 32698
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[7].queue[0] rxBytes:sum 133931008
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[7].queue[0] rxBytes:histogram
+field count 32698
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 133931008
+field sqrsum 548581408768
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	32698
+bin	4097	0
+scalar Myned.rte[7].queue[0] txBytes:count 32719
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[7].queue[0] txBytes:sum 134017024
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[7].queue[0] txBytes:histogram
+field count 32719
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 134017024
+field sqrsum 548933730304
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	32719
+bin	4097	0
+scalar Myned.rte[7].queue[0] busy:timeavg 0.99998551173323
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[7].queue[0] qlen:timeavg 2.6942660274913
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[7].queue[0] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[7].queue[0] drop:count 47041
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[7].queue[0] drop:sum 192679936
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[7].queue[1] typename "\"node.L2Queue\""
+par Myned.rte[7].queue[1] frameCapacity 3
+par Myned.rte[7].queue[1] useCutThroughSwitching false
+scalar Myned.rte[7].queue[1] rxBytes:count 13057
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[7].queue[1] rxBytes:sum 53481472
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[7].queue[1] rxBytes:histogram
+field count 13057
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53481472
+field sqrsum 219060109312
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13057
+bin	4097	0
+scalar Myned.rte[7].queue[1] txBytes:count 13106
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[7].queue[1] txBytes:sum 53682176
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[7].queue[1] txBytes:histogram
+field count 13106
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53682176
+field sqrsum 219882192896
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13106
+bin	4097	0
+scalar Myned.rte[7].queue[1] busy:timeavg 0.40056480363719
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[7].queue[1] qlen:timeavg 0.10146334936973
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[7].queue[1] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[7].queue[1] drop:count 12
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[7].queue[1] drop:sum 49152
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[7].queue[2] typename "\"node.L2Queue\""
+par Myned.rte[7].queue[2] frameCapacity 3
+par Myned.rte[7].queue[2] useCutThroughSwitching false
+scalar Myned.rte[7].queue[2] rxBytes:count 13334
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[7].queue[2] rxBytes:sum 54616064
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[7].queue[2] rxBytes:histogram
+field count 13334
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54616064
+field sqrsum 223707398144
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13334
+bin	4097	0
+scalar Myned.rte[7].queue[2] txBytes:count 13053
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[7].queue[2] txBytes:sum 53465088
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[7].queue[2] txBytes:histogram
+field count 13053
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53465088
+field sqrsum 218993000448
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13053
+bin	4097	0
+scalar Myned.rte[7].queue[2] busy:timeavg 0.39894493986542
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[7].queue[2] qlen:timeavg 0.099519049171116
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[7].queue[2] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[7].queue[2] drop:count 15
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[7].queue[2] drop:sum 61440
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[7] typename "\"node.Node\""
+par Myned.rte[7] address 7
+par Myned.rte[7] appType "\"App\""
+par Myned.rte[8].app typename "\"node.App\""
+par Myned.rte[8].app address 8
+par Myned.rte[8].app destAddresses "\"0 1 2 3 4 5 6 7 8\""
+par Myned.rte[8].app sendIaTime "uniform(30ms, 150ms)"
+attr unit s
+par Myned.rte[8].app packetLength 4096byte
+attr unit byte
+scalar Myned.rte[8].app receiveCount:count 104860
+attr interpolationmode none
+attr recordingmode count
+attr title "receive count, count"
+scalar Myned.rte[8].app sendCount:count 118974
+attr interpolationmode none
+attr recordingmode count
+attr title "send count, count"
+scalar Myned.rte[8].app sourceAddress:mean 4.2394526034713
+attr interpolationmode none
+attr recordingmode mean
+attr title "source address of arrived packets, mean"
+scalar Myned.rte[8].app sourceAddress:max 8
+attr interpolationmode none
+attr recordingmode max
+attr title "source address of arrived packets, max"
+scalar Myned.rte[8].app hopCount:mean 1.1474156017547
+attr interpolationmode none
+attr recordingmode mean
+attr title "hop count of arrived packets, mean"
+scalar Myned.rte[8].app hopCount:max 2
+attr interpolationmode none
+attr recordingmode max
+attr title "hop count of arrived packets, max"
+scalar Myned.rte[8].app endToEndDelay:mean 0.75717821636053
+attr interpolationmode none
+attr recordingmode mean
+attr title "end-to-end delay of arrived packets, mean"
+attr unit s
+scalar Myned.rte[8].app endToEndDelay:max 2.661316819433
+attr interpolationmode none
+attr recordingmode max
+attr title "end-to-end delay of arrived packets, max"
+attr unit s
+scalar Myned.rte[8].app endToEndDelay:min 0
+attr interpolationmode none
+attr recordingmode min
+attr title "end-to-end delay of arrived packets, min"
+attr unit s
+par Myned.rte[8].routing typename "\"node.Routing\""
+statistic Myned.rte[8].routing outputIf:histogram
+field count 210668
+field mean 0.25695881671635
+field stddev 1.5639443699852
+field min -1
+field max 4
+field sum 54133
+field sqrsum 529185
+attr interpolationmode none
+attr recordingmode histogram
+attr title "output interface for each routed packet"
+bin	-inf	0
+bin	-3	0
+bin	-2	0
+bin	-1	104860
+bin	0	26364
+bin	1	39666
+bin	2	13353
+bin	3	13079
+bin	4	13346
+bin	5	0
+bin	6	0
+scalar Myned.rte[8].routing drop:count 0
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].routing drop:sum 0
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[8].queue[0] typename "\"node.L2Queue\""
+par Myned.rte[8].queue[0] frameCapacity 3
+par Myned.rte[8].queue[0] useCutThroughSwitching false
+scalar Myned.rte[8].queue[0] rxBytes:count 20725
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[0] rxBytes:sum 84889600
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[8].queue[0] rxBytes:histogram
+field count 20725
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 84889600
+field sqrsum 347707801600
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	20725
+bin	4097	0
+scalar Myned.rte[8].queue[0] txBytes:count 25415
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[0] txBytes:sum 104099840
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[8].queue[0] txBytes:histogram
+field count 25415
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 104099840
+field sqrsum 426392944640
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	25415
+bin	4097	0
+scalar Myned.rte[8].queue[0] busy:timeavg 0.77677052376314
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[8].queue[0] qlen:timeavg 0.69950912419599
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[8].queue[0] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[8].queue[0] drop:count 949
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[0] drop:sum 3887104
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[8].queue[1] typename "\"node.L2Queue\""
+par Myned.rte[8].queue[1] frameCapacity 3
+par Myned.rte[8].queue[1] useCutThroughSwitching false
+scalar Myned.rte[8].queue[1] rxBytes:count 31256
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[1] rxBytes:sum 128024576
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[8].queue[1] rxBytes:histogram
+field count 31256
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 128024576
+field sqrsum 524388663296
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	31256
+bin	4097	0
+scalar Myned.rte[8].queue[1] txBytes:count 31587
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[1] txBytes:sum 129380352
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[8].queue[1] txBytes:histogram
+field count 31587
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 129380352
+field sqrsum 529941921792
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	31587
+bin	4097	0
+scalar Myned.rte[8].queue[1] busy:timeavg 0.9653935874674
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[8].queue[1] qlen:timeavg 1.7392037715184
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[8].queue[1] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[8].queue[1] drop:count 8077
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[1] drop:sum 33083392
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[8].queue[2] typename "\"node.L2Queue\""
+par Myned.rte[8].queue[2] frameCapacity 3
+par Myned.rte[8].queue[2] useCutThroughSwitching false
+scalar Myned.rte[8].queue[2] rxBytes:count 13364
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[2] rxBytes:sum 54738944
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[8].queue[2] rxBytes:histogram
+field count 13364
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54738944
+field sqrsum 224210714624
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13364
+bin	4097	0
+scalar Myned.rte[8].queue[2] txBytes:count 13343
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[2] txBytes:sum 54652928
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[8].queue[2] txBytes:histogram
+field count 13343
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54652928
+field sqrsum 223858393088
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13343
+bin	4097	0
+scalar Myned.rte[8].queue[2] busy:timeavg 0.40780834540906
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[8].queue[2] qlen:timeavg 0.10643118679222
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[8].queue[2] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[8].queue[2] drop:count 10
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[2] drop:sum 40960
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[8].queue[3] typename "\"node.L2Queue\""
+par Myned.rte[8].queue[3] frameCapacity 3
+par Myned.rte[8].queue[3] useCutThroughSwitching false
+scalar Myned.rte[8].queue[3] rxBytes:count 13296
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[3] rxBytes:sum 54460416
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[8].queue[3] rxBytes:histogram
+field count 13296
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54460416
+field sqrsum 223069863936
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13296
+bin	4097	0
+scalar Myned.rte[8].queue[3] txBytes:count 13066
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[3] txBytes:sum 53518336
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[8].queue[3] txBytes:histogram
+field count 13066
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53518336
+field sqrsum 219211104256
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13066
+bin	4097	0
+scalar Myned.rte[8].queue[3] busy:timeavg 0.39934226494152
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[8].queue[3] qlen:timeavg 0.10023152945256
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[8].queue[3] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[8].queue[3] drop:count 13
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[3] drop:sum 53248
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[8].queue[4] typename "\"node.L2Queue\""
+par Myned.rte[8].queue[4] frameCapacity 3
+par Myned.rte[8].queue[4] useCutThroughSwitching false
+scalar Myned.rte[8].queue[4] rxBytes:count 13053
+attr interpolationmode none
+attr recordingmode count
+attr title "received packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[4] rxBytes:sum 53465088
+attr interpolationmode none
+attr recordingmode sum
+attr title "received packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[8].queue[4] rxBytes:histogram
+field count 13053
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 53465088
+field sqrsum 218993000448
+attr interpolationmode none
+attr recordingmode histogram
+attr title "received packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13053
+bin	4097	0
+scalar Myned.rte[8].queue[4] txBytes:count 13334
+attr interpolationmode none
+attr recordingmode count
+attr title "transmitting packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[4] txBytes:sum 54616064
+attr interpolationmode none
+attr recordingmode sum
+attr title "transmitting packet byte length, sum"
+attr unit bytes
+statistic Myned.rte[8].queue[4] txBytes:histogram
+field count 13334
+field mean 4096
+field stddev 0
+field min 4096
+field max 4096
+field sum 54616064
+field sqrsum 223707398144
+attr interpolationmode none
+attr recordingmode histogram
+attr title "transmitting packet byte length"
+attr unit bytes
+bin	-inf	0
+bin	4095	0
+bin	4096	13334
+bin	4097	0
+scalar Myned.rte[8].queue[4] busy:timeavg 0.40753327420253
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "server busy state, timeavg"
+scalar Myned.rte[8].queue[4] qlen:timeavg 0.10288548029753
+attr interpolationmode sample-hold
+attr recordingmode timeavg
+attr title "queue length, timeavg"
+scalar Myned.rte[8].queue[4] qlen:max 3
+attr interpolationmode sample-hold
+attr recordingmode max
+attr title "queue length, max"
+scalar Myned.rte[8].queue[4] drop:count 12
+attr interpolationmode none
+attr recordingmode count
+attr title "dropped packet byte length, count"
+attr unit bytes
+scalar Myned.rte[8].queue[4] drop:sum 49152
+attr interpolationmode none
+attr recordingmode sum
+attr title "dropped packet byte length, sum"
+attr unit bytes
+par Myned.rte[8] typename "\"node.Node\""
+par Myned.rte[8] address 8
+par Myned.rte[8] appType "\"App\""
+par Myned typename "\"networks.Myned\""
+
