@@ -1,0 +1,41 @@
+file 1223 1663061903                                            
+version 3
+run Net60CutThrough-0-20220913-17:27:35-12312
+attr configname Net60CutThrough
+attr datetime 20220913-17:27:35
+attr datetimef 20220913-172735
+attr experiment Net60CutThrough
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network networks.Net60
+attr processid 12312
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network networks.Net60
+config description "60 node network with cut-through switching"
+config **.app.packetLength "32768 bytes"
+config **.useCutThroughSwitching true
+config **.destAddresses "\"1 50\""
+config **.sendIaTime "uniform(1ms, 5ms)"
+config **.appType "\"App\""
+config **.app.packetLength "4096 bytes"
+
+vector 0 Net60.rte[50].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr title "end-to-end delay of arrived packets"
+attr unit s
+vector 1 Net60.rte[1].app endToEndDelay:vector ETV
+attr interpolationmode none
+attr recordingmode vector
+attr title "end-to-end delay of arrived packets"
+attr unit s
+0	1126 29 107 107 0.001773413142 0.001773413142 1 0.0002 0.0002 0.0002 4e-08
+1	1155 66 133 185 0.001880873596 0.002143017596 2 0.0008 0.000858873361 0.001658873361 1.3776634502354e-06
+
